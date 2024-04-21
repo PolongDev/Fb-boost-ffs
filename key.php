@@ -7,7 +7,7 @@ if (isset($_POST['inputPassword'])){
     $login_status = login($password);
     //echo $login_status;
     if($login_status == true){
-        header('Location: ffsfb.php');
+        header('Location: index.php');
     }
     else{
       echo "<div style='color:red;background-color:black; font-weight:bold; border-bottom:3px solid red;'>INVALID ACCESS KEY</div>";
